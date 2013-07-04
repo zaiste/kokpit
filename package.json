@@ -9,6 +9,6 @@
   },
   "devDependencies": {},
   "engines": {
-    "node": "*"
+    "node": "0.10.12"
   }
 }
