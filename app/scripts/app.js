@@ -2,9 +2,9 @@
 
 var kokpitApp = angular.module('kokpitApp', [])
 
-$(function(){ //DOM Ready
+$(function() {
   $(".gridster ul").gridster({
-      widget_margins: [9, 9],
-      widget_base_dimensions: [320, 320]
+      widget_margins: [18, 18],
+      widget_base_dimensions: [312, 312]
   });
 });

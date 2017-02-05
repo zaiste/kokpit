@@ -1,7 +1,19 @@
-<h1 class="title">{{title}}</h1>
+<div class="header">
+  <h1 class="title">{{title}}</h1>
+</div>
+
 
 <h2 class="value">{{ value || 0 }}</h2>
 
-<p class="more-info">{{ moreinfo }}</p>
+<div class="sign">
+  <div class="entypo-social {{ moreinfo }}"></div>
+</div>
 
-<p class="updated-at">{{ updatedAt | fromNow }}</p>
+<div class="status">
+  <div class="entypo cog"></div>
+  <div class="entypo cw"></div>
+  <div class="entypo warning"></div>
+  <p class="updated-at">
+    Last updated: {{ updatedAt | fromNow }}
+  </p>
+</div>
